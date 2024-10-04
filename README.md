@@ -1,13 +1,17 @@
 # PDF to CSV Transaction Converter
 
-This project is a Python script that extracts transaction data from Barclays Luxury Card credit card statement PDFs and converts the data into CSV files. There is currently no way to organize large amounts of Statement data, as it can only be exported via a PDF (or the last 90 days of activity in .csv). This script supports processing multiple PDFs at once, and merges the results into a single CSV file.
+This project is a Python script that extracts transaction data from Barclays Luxury Card credit card statement .PDFs and converts the data into .CSV files.
+
+There is currently no way to organize large amounts of Luxury Card statement data, as it annoyingly can only be exported via a .PDF (or the last 90 days of activity in .CSV). 
+
+This script supports processing multiple PDFs at once, and merges the results into a single CSV file.
 
 ## Features
 
-- **Extracts transaction data** from PDFs, including transaction date, posting date, description, points (optional), and amount.
-- **Processes multiple PDF files** and converts each into a corresponding CSV file.
+- **Extracts transaction data** from Barclays Luxury Card Credit Card statement PDFs, including transaction date, posting date, description, points (optional), and amount.
+- **Processes multiple PDF files at once** and converts each into a corresponding CSV file.
 - **Merges all output CSV files** into one consolidated CSV file containing all transactions.
-- **Handles missing points** gracefully and ensures correct formatting for CSV output.
+- **Handles missing "points" field** ensures correct formatting for CSV output.
 
 ## Requirements
 
