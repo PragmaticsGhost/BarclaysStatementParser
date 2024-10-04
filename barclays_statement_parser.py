@@ -72,7 +72,7 @@ def pdfs_to_csvs_and_merge(pdf_folder, output_folder, merged_csv):
         print("No transactions to merge.")
 
 # Run the script
-pdf_folder = '/home/wntrb0y/Desktop/BC_Statements_2024'  # Folder containing your PDF files
-output_folder = '/home/wntrb0y/Desktop/BC_Statements_2024'  # Folder to save the individual CSV files
-merged_csv = '/home/wntrb0y/Desktop/BC_Statements_2024/2024_Transactions.csv'  # Output path for the merged CSV file
+pdf_folder = 'PDF_FOLDER'  # Folder containing your PDF files
+output_folder = 'OUTPUT_FOLDER'  # Folder to save the individual CSV files
+merged_csv = '/home/User/Transactions.csv'  # Output path & filename for the merged CSV file
 pdfs_to_csvs_and_merge(pdf_folder, output_folder, merged_csv)
