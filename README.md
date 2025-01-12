@@ -54,3 +54,7 @@ This project is licensed under the GNU General Public License v3.0 - see the LIC
 
 ## Contributing
 Feel free to submit pull requests or raise issues. Contributions are welcome!
+
+_______________________________________________________
+
+ReadMe generated with GenAI....don't hate me
